@@ -5,9 +5,10 @@ Seismic interrogation of the upper mantle from the base of the crust to the top 
 ### Citation
 If you use `CRISP-RF` in your work, please cite:
 
-1. Tolulope Olugboji, Ziqi Zhang, Steve Carr, Canberk Ekmekci, Mujdat Cetin, On the detection of upper mantle discontinuities with radon-transformed receiver functions (CRISP-RF), Geophysical Journal International, Volume 236, Issue 2, February 2024, Pages 748–763, https://doi.org/10.1093/gji/ggad447
-   
-2. Steve Asamoah Boamah Carr, Tolulope Olugboji. A Taxonomy of Upper-Mantle Stratification in the US. ESS Open Archive . January 15, 2024.
-DOI: 10.22541/essoar.170533935.54641104/v1
+1. Tolulope Olugboji, Ziqi Zhang, Steve Carr, Canberk Ekmekci, Mujdat Cetin (2024). On the detection of upper mantle discontinuities with radon-transformed receiver functions (CRISP-RF). _Geophysical Journal International, 236_(2): 748–763. https://doi.org/10.1093/gji/ggad447
+
+2. Ziqi Zhang, Tolulope Olugboji (2024). Crustal Imaging with Noisy Teleseismic Receiver Functions Using Sparse Radon Transforms. _Bulletin of the Seismological Society of America_. https://doi.org/10.1785/0120230254
+
+3. Steve Asamoah Boamah Carr, Tolulope Olugboji (2024). A Taxonomy of Upper-Mantle Stratification in the US. _ESS Open Archive_. https://doi.org/10.22541/essoar.170533935.54641104/v1
 
 The SRTFISTA algorithm is used for the USArray dataset and codes can be found at Carr, S. and Olugboji, T. (2024) “URseismology/USMantleTax: Preprint Release”. Zenodo. doi: 10.5281/zenodo.10452228.
