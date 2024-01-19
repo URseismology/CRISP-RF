@@ -1,0 +1,13 @@
+## CRISP-RF: Clean Receiver-function Imaging using SParse Radon Filters
+
+Seismic interrogation of the upper mantle from the base of the crust to the top of the mantle transition zone has revealed discontinuities that are variable in space, depth, lateral extent, amplitude and lack a unified explanation for their origin. Improved constraints on the detectability and properties of mantle discontinuities can be obtained with P-to-S receiver function (Ps-RF) where energy scatters from P to S as seismic waves propagate across discontinuities of interest. However, due to the interference of crustal multiples, uppermost mantle discontinuities are more commonly imaged with lower resolution S-to-P receiver function (Sp-RF). In this study, a new method called CRISP-RF (Clean Receiver-function Imaging using SParse Radon Filters) is proposed, which incorporates ideas from compressive sensing and model-based image reconstruction. The central idea involves applying a sparse Radon transform to effectively decompose the Ps-RF into its underlying wavefield contributions, that is direct conversions, multiples, and noise, based on the phase moveout and coherence. A masking filter is then designed and applied to create a multiple-free and denoised Ps-RF. We demonstrate, using synthetic experiment, that our implementation of the Radon transform using a sparsity-promoting regularization outperforms the conventional least-squares methods and can effectively isolate direct Ps conversions. We further apply the CRISP-RF workflow on real data, including single station data on cratons, common-conversion-point stack at continental margins and seismic data from ocean islands. The application of CRISP-RF to global data sets will advance our understanding of the enigmatic origins of the upper mantle discontinuities like the ubiquitous mid-lithospheric discontinuity and the elusive X-discontinuity.
+
+### Citation
+If you use `CRISP-RF` in your work, please cite:
+
+1. Tolulope Olugboji, Ziqi Zhang, Steve Carr, Canberk Ekmekci, Mujdat Cetin, On the detection of upper mantle discontinuities with radon-transformed receiver functions (CRISP-RF), Geophysical Journal International, Volume 236, Issue 2, February 2024, Pages 748–763, https://doi.org/10.1093/gji/ggad447
+   
+2. Steve Asamoah Boamah Carr, Tolulope Olugboji. A Taxonomy of Upper-Mantle Stratification in the US. ESS Open Archive . January 15, 2024.
+DOI: 10.22541/essoar.170533935.54641104/v1
+
+The SRTFISTA algorithm is used for the USArray dataset and codes can be found at Carr, S. and Olugboji, T. (2024) “URseismology/USMantleTax: Preprint Release”. Zenodo. doi: 10.5281/zenodo.10452228.
